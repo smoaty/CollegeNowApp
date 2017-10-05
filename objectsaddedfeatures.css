@@ -1,0 +1,218 @@
+table{
+  width: 100%;
+  border-collapse: collapse;
+  table-layout: fixed; 
+  word-wrap:break-word; 
+	background-color:#E8EBF4;
+	font-family:ariel sans-serif;
+	font-size:18px;	
+}
+
+/*paragraph*/
+
+p {
+color: #522F91;
+font-size: 250%;
+font-family:ariel sans-serif;
+position: absolute;
+top: 36%;
+left: 27%;
+}
+
+/*drop button*/
+ 
+  .select-style {
+   background: url(http://i62.tinypic.com/15xvbd5.png) no-repeat 96% 0;
+   height: 29px;
+   overflow: hidden;
+   width: 190px;
+   background-color: #522F91;
+   outline: none;
+   position: absolute;
+   top: 43%;
+   left: 43%;
+}
+
+/*drop down content*/
+
+ .select-style select {
+   outline: none;
+   background: transparent;
+   border: none;
+   font-size: 16px;
+   height: 29px;
+   padding: 5px;
+   width: 280px;
+   -webkit-border-radius: 5px;
+   -moz-border-radius: 5px;
+   border-radius: 5px;
+   color: white;
+}
+
+
+
+
+
+/*card view*/
+
+    table.cards {
+        background-color: transparent;
+    }
+
+    /*--[  This does the job of making the table rows appear as cards ]----------------*/
+    .cards tbody tr {
+        float: left;
+        margin: 10px;
+        border: 1px solid; 
+        border-color: #FFCD00;
+        box-shadow: 3px 3px 6px rgba(0,0,0,0.25);
+        background-color: white;
+    }
+    .cards tbody td {
+        display: block;
+        width: 330px;
+        overflow: hidden;
+        text-align: left;
+    }
+
+    /*---[ The remaining is just more dressing to fit  preferances ]-----------------*/
+  
+    .table .glyphicon {
+        font-size: 20px;
+    }
+
+    .cards .glyphicon {
+        font-size: 100px;
+    }
+
+    .cards tbody label {
+        display: block;
+        position: relative;
+        font-size: 85%;
+        font-weight: normal;
+        top: -5px;
+        left: -3px;
+        float: left;
+        color: 80808;
+    }
+    .cards tbody td:nth-child(1) {
+        text-align: center;
+    }
+
+#drop{
+	background-color:rgb(87,47,136);
+	width:100%;
+	hover:cambodian;
+}
+
+
+th {
+	
+  color: #ffffff;
+  background-color: #522F91;
+  border: 2px;
+  border-style: solid;
+  border-color: green;
+  text-align: center;
+  padding: 8px;
+  width: 100px;	
+}
+
+
+table.dataTable tr:hover {
+background-color: #FFCD00;
+color: #FFCD00;
+}
+
+.ex_highlight table.datatable tr.even:hover, #example tbody tr.even td.highlighted {
+background-color: #FFCD00;
+}
+
+.ex_highlight table.datatable tr.odd:hover, #example tbody tr.odd td.highlighted {
+background-color: #FFCD00;
+}
+
+.ex_highlight_row #example tr.even:hover td.sorting_1 {
+background-color: #FFCD00;
+}
+
+ td {
+ 
+	border: 2px: 
+border-style:  solid;
+  text-align: left;
+  padding: 8px;
+	 border-color: #FFCD00;
+}
+
+table.dataTable tr:nth-child(odd) {
+background-color: #CED5E9;
+}
+
+
+
+ .dataTables_filter input  {
+   -webkit-border-radius: 5px;
+   -moz-border-radius: 5px;
+	 width: 110px;
+   border-radius: 5px;
+   color: black;
+}
+
+
+/* Style all font awesome icons */
+.fa {
+    padding: 10px;
+    font-size: 10px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+		float: right;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+    opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+    background-color: #3B5998;
+			
+    color: white;
+	
+}
+
+/* Twitter */
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+	
+}
+
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+	
+}
+
+
+	}
+.hide{
+    display:none;
+}
+
+
+#btToggleDisplay{
+background-color: white;
+	border: rotate3d;
+	width: 60px;
+	position: absolute;
+	left: 0px;
+}
+
+
